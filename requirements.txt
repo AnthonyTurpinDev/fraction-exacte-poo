@@ -1,0 +1,43 @@
+# ============================================================
+# requirements.txt – Fraction Exacte
+# ============================================================
+# Auteur : Étudiant L1 Informatique
+# Date : 2026
+# ============================================================
+# 
+# Installation : pip install -r requirements.txt
+# ============================================================
+
+# ------------------------------------------------------------
+# Dépendances principales
+# ------------------------------------------------------------
+# Aucune dépendance externe requise pour l'utilisation du module
+# La classe Fraction n'utilise que la bibliothèque standard Python
+
+# ------------------------------------------------------------
+# Dépendances de développement (optionnel)
+# ------------------------------------------------------------
+# Uniquement nécessaire pour les tests, linting et benchmarks
+# Installer avec : pip install -r requirements.txt[dev]
+
+# Tests et couverture
+pytest>=7.4.0
+pytest-cov>=4.1.0
+coverage>=7.3.0
+
+# Qualité du code
+black>=23.9.0
+flake8>=6.1.0
+mypy>=1.5.0
+pylint>=3.0.0
+
+# Benchmarks
+pytest-benchmark>=4.0.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+
+# ============================================================
+# Note : Le module fraction est utilisable sans aucune installation
+# ============================================================

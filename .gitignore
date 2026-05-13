@@ -1,0 +1,262 @@
+# ============================================================
+# .gitignore – Projet Fraction Exacte
+# ============================================================
+# Auteur : Étudiant L1 Informatique
+# Date : 2026
+# ============================================================
+
+# --------------------------------------------
+# Python – Fichiers compilés et caches
+# --------------------------------------------
+
+# Bytecode compilé
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Fichiers de cache
+*.cache
+*.pyc
+*.pyclass
+*.pycode
+
+# Dossiers de cache Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --------------------------------------------
+# Environnements virtuels
+# --------------------------------------------
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.virtualenv/
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# --------------------------------------------
+# IDE et éditeurs
+# --------------------------------------------
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb.orig/
+
+# --------------------------------------------
+# Tests et couverture
+# --------------------------------------------
+
+# Rapports de test
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest/
+
+# Benchmarks
+benchmarks/results/
+*.benchmark
+
+# --------------------------------------------
+# Documentation
+# --------------------------------------------
+
+# Documentation générée
+docs/_build/
+docs/.build/
+site/
+
+# Fichiers temporaires de documentation
+*.aux
+*.out
+*.toc
+*.log
+
+# --------------------------------------------
+# Fichiers système
+# --------------------------------------------
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+
+# Linux
+.directory
+*.part
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --------------------------------------------
+# Logs et bases de données
+# --------------------------------------------
+
+# Logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+logs/
+
+# Bases de données
+*.db
+*.sqlite
+*.sqlite3
+
+# --------------------------------------------
+# Secrets et configuration locale
+# --------------------------------------------
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Secrets
+*.pem
+*.key
+*.crt
+.secrets/
+
+# Configuration locale
+config.local.py
+settings_local.py
+
+# --------------------------------------------
+# Fichiers de sortie générés
+# --------------------------------------------
+
+# Output généré par le code
+output/
+results/
+temp/
+tmp/
+*.out
+*.result
+
+# --------------------------------------------
+# Fichiers de backup et archives
+# --------------------------------------------
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Backups
+*.backup
+*.old
+*.orig
+*.bak
+
+# --------------------------------------------
+# Fichiers spécifiques au projet
+# --------------------------------------------
+
+# Fichiers de test temporaires
+tests/temp/
+tests/output/
+
+# Profilage
+*.prof
+*.lprof
+
+# --------------------------------------------
+# Exceptions (fichiers à conserver absolument)
+# --------------------------------------------
+
+# Ne pas ignorer ces fichiers
+!requirements.txt
+!setup.py
+!Makefile
+!.gitignore
+
+# Ne pas ignorer les exemples (mais ignorer leurs outputs)
+examples/output/
+examples/*.log
+
+# Conserver les fichiers de documentation importants
+!docs/API.md
+!docs/ALGO.md
+
+# Conserver les fichiers de test
+!tests/__init__.py
+!tests/test_*.py
